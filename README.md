@@ -16,7 +16,7 @@ Phoenix v1.3.4
 Use the image directly from Docker Hub
 
 ```
-docker run -ti --rm gabrielzuqueto/docker-phoenix-elixir:latest
+docker run -ti --rm gabrielzuqueto/phoenix-elixir-alphine:latest
 ```
 
 Or ...
@@ -28,7 +28,7 @@ git clone https://github.com/gabrielzuqueto/docker-phoenix-elixir.git
 
 cd docker-phoenix-elixir
 
-docker build -t docker-phoenix-elixir .
+docker build -t phoenix-elixir-alphine .
 ```
 
 ## License ##
