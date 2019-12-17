@@ -2,7 +2,7 @@ FROM elixir:1.9.4-alpine
 
 MAINTAINER Gabriel Zuqueto Amaral
 
-apk update \
+RUN apk update \
 && apk upgrade \
 && apk add git nodejs npm \
 && mix local.hex --force \
